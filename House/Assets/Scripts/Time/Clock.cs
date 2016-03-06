@@ -45,6 +45,6 @@ public class Clock : MonoBehaviour {
 
     void rotateHourHand()
     {
-        hourHand.localEulerAngles = new Vector3((_time.Hour * 30), 0.0f, 0.0f);
+        hourHand.localEulerAngles = new Vector3((_time.Hour * 30) + (_time.Minute * 0.5f), 0.0f, 0.0f);
     }
 }
