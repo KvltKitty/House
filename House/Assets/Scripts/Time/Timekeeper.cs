@@ -35,7 +35,7 @@ public class Timekeeper : MonoBehaviour {
 
     void OnGUI()
     {
-        GUI.Label(new Rect(10, 10, 100, 20), _houseTime.ToString());     
+        GUI.Label(new Rect(10, 10, 160, 20), _houseTime.ToString());     
     }
 
     //iterates through all clock objects inside the house and sends a message to their set time function, passing in the current house time as a parameter
