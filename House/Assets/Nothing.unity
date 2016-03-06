@@ -244,6 +244,22 @@ Prefab:
       propertyPath: m_Name
       value: Clock (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 10842278, guid: 9d43a4405397e5b418dbbc28cc3fa876, type: 2}
+      propertyPath: m_Color.r
+      value: 0.025681213
+      objectReference: {fileID: 0}
+    - target: {fileID: 10842278, guid: 9d43a4405397e5b418dbbc28cc3fa876, type: 2}
+      propertyPath: m_Color.g
+      value: 0.6428454
+      objectReference: {fileID: 0}
+    - target: {fileID: 10842278, guid: 9d43a4405397e5b418dbbc28cc3fa876, type: 2}
+      propertyPath: m_Color.b
+      value: 0.6985294
+      objectReference: {fileID: 0}
+    - target: {fileID: 10842278, guid: 9d43a4405397e5b418dbbc28cc3fa876, type: 2}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9d43a4405397e5b418dbbc28cc3fa876, type: 2}
   m_IsPrefabParent: 0
@@ -415,9 +431,9 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 455640, guid: 9d43a4405397e5b418dbbc28cc3fa876, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.1
+    - target: {fileID: 10842278, guid: 9d43a4405397e5b418dbbc28cc3fa876, type: 2}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9d43a4405397e5b418dbbc28cc3fa876, type: 2}
@@ -510,6 +526,22 @@ Prefab:
     - target: {fileID: 152818, guid: 9d43a4405397e5b418dbbc28cc3fa876, type: 2}
       propertyPath: m_Name
       value: Clock (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 10842278, guid: 9d43a4405397e5b418dbbc28cc3fa876, type: 2}
+      propertyPath: m_Color.g
+      value: 0.97241366
+      objectReference: {fileID: 0}
+    - target: {fileID: 10842278, guid: 9d43a4405397e5b418dbbc28cc3fa876, type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 10842278, guid: 9d43a4405397e5b418dbbc28cc3fa876, type: 2}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 10842278, guid: 9d43a4405397e5b418dbbc28cc3fa876, type: 2}
+      propertyPath: m_Shadows.m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9d43a4405397e5b418dbbc28cc3fa876, type: 2}
