@@ -5,19 +5,23 @@ using System;
 
 public class Timekeeper : MonoBehaviour {
     private DateTime _time;
+    private DateTime _startTime;
     private GameObject[] clocks;
+    private
+
 	// Use this for initialization
 	void Start ()
     {
         clocks = GameObject.FindGameObjectsWithTag("Clock");
-        _time = DateTime.Now;
+        _startTime = DateTime.Now;
+        _time = _startTime;
         Debug.Log(_time);
 	}
 	
 	// Update is called once per frame
 	void Update ()
     {
-	
+	    
 	}
 
     public DateTime getTime()
