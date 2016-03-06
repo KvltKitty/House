@@ -34,10 +34,12 @@ public class Interact : MonoBehaviour {
             float w = 310.0f;
             float h = 300.0f;
             Rect rect = new Rect((Screen.width - w) / 2, (Screen.height - h) / 8, w, h);
+            Rect rect2 = new Rect((Screen.width - 140) / 2, 0, 140, 100); 
             var style = new GUIStyle("label");
             style.fontSize = 35;
             GUI.color = Color.yellow;
             GUI.Label(rect, "<Q> Interact <E>", style);
+            GUI.Label(rect2, currentObject.gameObject.GetComponent<Clock>().getTime().ToString());
            
         }
     }
@@ -46,8 +48,6 @@ public class Interact : MonoBehaviour {
     {
         if (other.gameObject.tag.Equals("Clock"))
         {
-            Debug.Log("Can Interact With Clock");
-            Debug.Log("clock time is " + other.gameObject.GetComponent<Clock>().getTime());
             canInteract = true;
             currentObject = other;
         }
@@ -57,8 +57,6 @@ public class Interact : MonoBehaviour {
     {
         if (other.gameObject.tag.Equals("Clock"))
         {
-            Debug.Log("Can No Longer Interact With Clock");
-            Debug.Log("clock time is " + other.gameObject.GetComponent<Clock>().getTime());
             canInteract = false;
             currentObject = null;
         }
