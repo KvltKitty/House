@@ -75,6 +75,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Character\Interact.cs" />
     <Compile Include="Assets\Scripts\Time\Clock.cs" />
     <Compile Include="Assets\Scripts\Time\Timekeeper.cs" />
   </ItemGroup>

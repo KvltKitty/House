@@ -13,17 +13,13 @@ public class Clock : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            timekeeper.setTime(true);
-            _time = timekeeper.getTime();
-            Debug.Log("time is now " + _time);
-        }
-        else if (Input.GetKeyDown(KeyCode.D))
-        {
-            timekeeper.setTime(false);
-            _time = timekeeper.getTime();
-            Debug.Log("time is now " + _time);
-        }
+       
+    }
+
+    public void changeTime(bool clockWise)
+    {
+        timekeeper.setTime(clockWise);
+        _time = timekeeper.getTime();
+        Debug.Log("time is now " + _time);
     }
 }
